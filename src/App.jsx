@@ -42,6 +42,7 @@ function App() {
       {isLoading && <p>Estoy cargando</p>}
       {!error && !isLoading && (
         <>
+          <h1>Declarativo</h1>
           <img src={urlDog} alt="Imagen de perrito aleatorio" />
           <button onClick={handlePerrito}>Otro</button>
         </>
